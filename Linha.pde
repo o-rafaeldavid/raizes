@@ -125,7 +125,7 @@ class Linha{
           fromCaminho.y + map(noiseVal, 0, 1, minMaxCaminhoChange[0], minMaxCaminhoChange[1])
         );
       }
-      this.factorVirtual = constrain(this.factorVirtual + map(sizeLinha, 300, 900, 0.003f, 0.002f) * this.dir / smoothness, 0, 1);
+      this.factorVirtual = constrain(this.factorVirtual + map(sizeLinha, 300, 900, 0.0018f, 0.0012f) * this.dir / smoothness, 0, 1);
     }
 
     /* println(this.factorVirtual); */
